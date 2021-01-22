@@ -130,7 +130,7 @@ def print_nof_stickers(u1_messages, u2_messages):
   nof_u2 = get_nof_stickers(u2_messages)
   total = nof_u1 + nof_u2
 
-  print('Nof emoji:')
+  print('Nof stickers:')
   print('User1:', nof_u1)
   print('User2:', nof_u2)
   print('Total:', total, '\n')
@@ -380,10 +380,10 @@ def run():
   # print_avg_msg_length(u1_messages, u2_messages)
   # print_nof_emoji(u1_messages, u2_messages)
   # print_nof_stickers(u1_messages, u2_messages)
-  print_most_common_words(messages, u1_messages, u2_messages)
+  # print_most_common_words(messages, u1_messages, u2_messages)
   # print_most_common_emoji(messages, u1_messages, u2_messages)
   # draw_daily_messages(u1_messages, u2_messages) #the bar plots will not be visible with larger datasets
-  #draw_hourly_messages(messages)
+  # draw_hourly_messages(messages)
   # draw_donut_distribution(msg_u1, msg_u2, 'Sent messages')
   # draw_donut_distribution(words_u1, words_u2, 'Number of\nwords')
   # draw_donut_distribution(emoji_u1, emoji_u2, 'Number of\nemoji')
